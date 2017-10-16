@@ -7,6 +7,7 @@ public class Commercial extends Customer{
 
     public Commercial(String name, String number, String address, double footage, boolean discount) {
             //display customer information after information is gathered
+        System.out.println("");
         System.out.println(name);
         System.out.println(number);
         System.out.println(address);

@@ -5,6 +5,7 @@ import java.text.NumberFormat;
 public class Residential extends Customer{
     public Residential(String name, String number, String address, double footage, boolean discount) {
         //display customer information after information is gathered
+        System.out.println("");
         System.out.println(name);
         System.out.println(number);
         System.out.println(address);
