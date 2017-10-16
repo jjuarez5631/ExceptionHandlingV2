@@ -1,9 +1,9 @@
 package com.inheritance.java;
 
 public class Customer {
-    String customerName;
-    String customerPhone;
-    String customerAddress;
+    private String customerName;
+    private String customerPhone;
+    private String customerAddress;
     double squareFootage;
     boolean discount;
 
